@@ -1,0 +1,7 @@
+#fnumber:invalid{
+    background-color:red;
+}
+
+#fnumber:valid{
+    background-color:green;
+}
