@@ -1,0 +1,38 @@
+p{
+    text-align: center;
+    
+}
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 39%;
+    background-color: aqua;
+}
+table{
+    background-color: bisque;
+    margin: 4px;
+    padding: 10px;
+    width: 90%;
+    border-width: 10px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border: solid;
+}
+tr{
+    height: 30px;
+    
+}
+th{
+    font-size: 20px;
+}
+td{
+    
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-left-style:solid;
+    border-left-width: 1px;
+}
+.azul{
+    background-color: aqua;
+    text-align: center;
+}

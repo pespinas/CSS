@@ -1,0 +1,15 @@
+div{
+    border: solid;
+    background-color: gray;
+    padding: 2%;
+    margin: 3%;
+}
+#left{
+    text-align: left;
+}
+#right{
+    text-align: right;
+}
+#mid{
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+div{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: ridge;
+    column-rule-width: 2px;
+    column-rule-color: red;
+
+}
+p:hover{
+    color:rgb(9, 213, 9);
+    background-color: white;
+}
+h1:hover{
+    color: red;
+}
+body{
+    background-color: rgb(254, 183, 125);
+}
