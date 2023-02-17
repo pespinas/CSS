@@ -1,0 +1,15 @@
+div{
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 10px;
+    background-color: red;
+    width: 19%;
+    height: 150px;
+}
+div:hover{
+    outline-color: green;
+}
+div:active{
+    outline-color: yellow;
+    background-color: purple;
+}

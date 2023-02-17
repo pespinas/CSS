@@ -1,0 +1,13 @@
+img{
+    float: left;
+    width: 402px;
+}
+div{
+    float: left;
+    background-color: lightgreen;
+    width: 55%;
+    height: 502px;
+}
+p{
+ padding: 20px;
+}

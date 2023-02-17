@@ -1,0 +1,56 @@
+.general{
+    background-color: gray;
+    border-style: solid;
+
+    width: 300px;
+    margin: 5%;
+    position: absolute;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+.izUp{
+    background-color: red;
+    display: block;
+    position: relative;
+    right: 20px;
+    top: -20px;
+    height: 45px;
+    border-radius: 50%;
+    width: 45px;;
+    border-style: solid;
+}
+.izDow{
+    background-color: blue;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    right: 25px;
+    top: 75px;
+    height: 45px;
+    width: 45px;
+    border-style: solid;
+}
+.derUp{
+    background-color: green;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    left: 275px;
+    top: -70px;
+    height: 45px;
+    width: 45px;
+    border-style: solid;
+}
+.derDow{
+    background-color: yellow;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    left: 275px;
+    top: 25px;
+    height: 45px;
+    width: 45px;
+    border-style: solid;
+}
