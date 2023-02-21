@@ -1,0 +1,87 @@
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.E2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.E2 > div {
+  background-color: orange;
+  width: 50%;
+  height: 100px;
+}
+.E1 {
+  background-color: greenyellow;
+  width: 100%;
+  height: 400px;
+}
+.E3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.E3 > div {
+  background-color: blue;
+  width: 50%;
+  height: 200px;
+}
+.E4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.E4 > div {
+  background-color: gray;
+  width: 50%;
+  height: 200px;
+}
+
+@media (max-width: 768px)  {
+  .E2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+  }
+  .E2 > div {
+    background-color: red;
+    width: 100%;
+  }
+  .E3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+  }
+  .E3>div{
+    width: 100%;
+    height: 100px;
+
+  }
+  .E4{
+    flex-wrap: wrap;
+  }
+  .E4>div{
+    width: 49%;
+  } 
+}
+@media (max-width: 320px) {
+  .E4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .E4>div{
+    width: 100%;
+  }
+}
+

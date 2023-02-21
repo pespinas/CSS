@@ -1,0 +1,34 @@
+div{
+    mix-blend-mode: lighten;
+}
+.rojo{
+    background: rgb(241, 23, 23);
+    display: block;
+    position: relative;
+    right: -23em;
+    top: -1em;
+    height: 20em;
+    border-radius: 50%;
+    width: 20em;
+
+}
+.verde{
+    background: rgb(12, 240, 12);
+    display: block;
+    position: relative;
+    right: -14em;
+    top: -11em;
+    height: 20em;
+    border-radius: 50%;
+    width: 20em;;
+}
+.azul{
+    background: rgb(8, 8, 245);
+    display: block;
+    position: relative;
+    right: -30em;
+    top: -30em;
+    height: 20em;
+    border-radius: 50%;
+    width: 20em;
+}
